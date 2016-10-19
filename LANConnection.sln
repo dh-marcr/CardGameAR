@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{054D8D58-C2C7-0E69-2DD7-2D3E15788294}") = "LANConnection", "Assembly-CSharp.csproj", "{0BE9B12E-225A-6E1F-6818-F934C24324D5}"
+EndProject
+Project("{054D8D58-C2C7-0E69-2DD7-2D3E15788294}") = "LANConnection", "Assembly-CSharp-Editor.csproj", "{82038B97-39B1-02A1-4D1F-21EE22C4B1FE}"
+EndProject
+Project("{054D8D58-C2C7-0E69-2DD7-2D3E15788294}") = "LANConnection", "Assembly-UnityScript-Editor-firstpass.unityproj", "{FD58D73A-A90B-ED98-C8C3-F84BDCD28B45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BE9B12E-225A-6E1F-6818-F934C24324D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE9B12E-225A-6E1F-6818-F934C24324D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE9B12E-225A-6E1F-6818-F934C24324D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE9B12E-225A-6E1F-6818-F934C24324D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82038B97-39B1-02A1-4D1F-21EE22C4B1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82038B97-39B1-02A1-4D1F-21EE22C4B1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82038B97-39B1-02A1-4D1F-21EE22C4B1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82038B97-39B1-02A1-4D1F-21EE22C4B1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD58D73A-A90B-ED98-C8C3-F84BDCD28B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD58D73A-A90B-ED98-C8C3-F84BDCD28B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD58D73A-A90B-ED98-C8C3-F84BDCD28B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD58D73A-A90B-ED98-C8C3-F84BDCD28B45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
