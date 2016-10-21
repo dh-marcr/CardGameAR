@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Billboard.cs" />
+     <Compile Include="Assets\BoardTarget.cs" />
      <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\CreatePlayBoard.cs" />
      <Compile Include="Assets\EnemySpawner.cs" />
@@ -67,6 +68,8 @@
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
      <Compile Include="Assets\MyPlayerController.cs" />
      <Compile Include="Assets\UIController.cs" />
+     <Compile Include="Assets\Utilities\DebugUtils.cs" />
+     <Compile Include="Assets\Utilities\Debugger.cs" />
      <Compile Include="Assets\Utilities\ExperienceManager.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
@@ -114,9 +117,9 @@
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\readme_SDK.txt" />
      <None Include="Assets\Lobby\Documentation.txt" />
+     <None Include="Assets\StreamingAssets\QCAR\CardGameDataBase_001.xml" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\Lobby\Instruction.txt" />
-     <None Include="Assets\StreamingAssets\QCAR\CardGameDataBase_001.xml" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
