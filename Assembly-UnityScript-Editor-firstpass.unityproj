@@ -51,7 +51,6 @@
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\readme_SDK.txt" />
      <None Include="Assets\Lobby\Documentation.txt" />
-     <None Include="Assets\StreamingAssets\QCAR\CardGameDataBase_001.xml" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\Lobby\Instruction.txt" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
@@ -59,6 +58,7 @@
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\StreamingAssets\QCAR\CardGameDataBase_001.xml" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
