@@ -67,6 +67,7 @@
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerList.cs" />
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
      <Compile Include="Assets\MyPlayerController.cs" />
+     <Compile Include="Assets\TextureOffset.cs" />
      <Compile Include="Assets\UIController.cs" />
      <Compile Include="Assets\Utilities\DebugUtils.cs" />
      <Compile Include="Assets\Utilities\Debugger.cs" />
@@ -119,12 +120,12 @@
      <None Include="Assets\Lobby\Documentation.txt" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\Lobby\Instruction.txt" />
+     <None Include="Assets\StreamingAssets\QCAR\CardGameDataBase_001.xml" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Fonts\OpenSans\License!.txt" />
-     <None Include="Assets\StreamingAssets\QCAR\CardGameDataBase_001.xml" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
