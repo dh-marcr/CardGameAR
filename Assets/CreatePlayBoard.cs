@@ -111,7 +111,7 @@ public class CreatePlayBoard : MonoBehaviour
  * 		spawn cube at target center - check
  * 		use pinch zoom to scale width and length of board to fit on table
  * 		lock in to complete board
- * Wehn the board is completed; 
+ * When the board is completed; 
  * 		have a controller to control the positioning of the board
  * 		lock in size and world position
  * 		target can move around but board stays in place
