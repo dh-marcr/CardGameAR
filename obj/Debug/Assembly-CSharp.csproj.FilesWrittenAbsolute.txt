@@ -16,3 +16,5 @@
 /Users/marcrobbins/Desktop/UnityProjects/CardGameAR/CardGameAR_Unity/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/marcrobbins/Desktop/UnityProjects/CardGameAR/CardGameAR_Unity/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/marcrobbins/Desktop/UnityProjects/CardGameAR/CardGameAR_Unity/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/marcrobbins/Desktop/UnityProjects/CardGameAR/CardGameAR_Unity/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/marcrobbins/Desktop/UnityProjects/CardGameAR/CardGameAR_Unity/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb

@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 using Vuforia;
+using Prototype.NetworkLobby;
 
 public class CreatePlayBoard : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class CreatePlayBoard : MonoBehaviour
 
 		DebugUtils.AddToLog ("<color=green>image target </color>" + in_target.name + "<color=green>found</color>");
 		_foundTarget = true;
-		_boardTarget = in_target.transform.FindChild ("Origin").GetComponent<BoardTarget> ();
+		target = in_target.transform;
 
 		if (!_buildingBoard) {
 			changeUIStyle (1);
@@ -189,8 +190,8 @@ public class CreatePlayBoard : MonoBehaviour
 		changeUIStyle (2);
 		_buildingBoard = true;
 
-		boardStart = (GameObject)Instantiate (tileBoardPrefab, Vector3.zero, Quaternion.identity) as GameObject;
-		boardStart.transform.parent = _boardTarget.transform.parent.transform;
+		boardStart = (GameObject)Instantiate (Resources.Load("TileBoard"), Vector3.zero, Quaternion.identity) as GameObject;
+		boardStart.transform.parent = target.transform.transform;
 		boardStart.transform.localPosition = Vector3.zero;
 		boardStart.transform.localEulerAngles = Vector3.zero;
 		boardStart.transform.localScale = new Vector3 (0.1f, 0.1f, 0.1f);
@@ -198,9 +199,14 @@ public class CreatePlayBoard : MonoBehaviour
 
 	public void lockInBoardPoint ()
 	{
+		LobbyManager lb = FindObjectOfType<LobbyManager> ();
+		lb.gamePlayerPrefab.GetComponent<GameInitialization> ().boardScale = boardStart.transform.localScale;
 
-
+		LobbyMainMenu lbmm = FindObjectOfType<LobbyMainMenu> ();
+		lbmm.OnClickCreateMatchmakingGame ();
 	}
+
+	public Transform target;
 
 	//scaling
 	bool _isDown;
@@ -213,7 +219,6 @@ public class CreatePlayBoard : MonoBehaviour
 	bool _foundTarget;
 	bool _buildingBoard;
 	bool _lockedIn;
-	public BoardTarget _boardTarget;
 
 	public GameObject scanner;
 	public GameObject scaler;

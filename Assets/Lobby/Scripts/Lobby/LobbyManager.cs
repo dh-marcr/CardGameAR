@@ -191,7 +191,6 @@ namespace Prototype.NetworkLobby
             {
                 StopHost();
             }
-
             
             ChangeTo(mainMenuPanel);
         }
@@ -407,6 +406,7 @@ namespace Prototype.NetworkLobby
         public override void OnClientDisconnect(NetworkConnection conn)
         {
             base.OnClientDisconnect(conn);
+
             ChangeTo(mainMenuPanel);
         }
 
@@ -415,5 +415,15 @@ namespace Prototype.NetworkLobby
             ChangeTo(mainMenuPanel);
             infoPanel.Display("Cient error : " + (errorCode == 6 ? "timeout" : errorCode.ToString()), "Close", null);
         }
+
+		void OnDisconnectedFromServer(NetworkDisconnection info) {
+			if (Network.isServer)
+				Debug.Log("Local server connection disconnected");
+			else
+				if (info == NetworkDisconnection.LostConnection)
+					Debug.Log("Lost connection to the server");
+				else
+					Debug.Log("Successfully diconnected from the server");
+		}
     }
 }
