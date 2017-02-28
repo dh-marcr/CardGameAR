@@ -3,5 +3,9 @@
   <Tracking>
     <ImageTarget name="simple-cross-tattoo-designs" size="1.000000 1.407625" />
     <ImageTarget name="aeron_portal05_scaled" size="1.000000 1.000000" />
+    <ImageTarget name="aeron_portal04_scaled" size="1.000000 1.000000" />
+    <ImageTarget name="aeron_portal02_scaled" size="1.000000 1.000000" />
+    <ImageTarget name="aeron_portal01_scaled" size="1.000000 0.996094" />
+    <ImageTarget name="aeron_portal03_scaled" size="1.000000 1.000000" />
   </Tracking>
 </QCARConfig>

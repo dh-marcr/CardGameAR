@@ -4,6 +4,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Networking;
 using UnityEngine.Networking.Types;
 using UnityEngine.Networking.Match;
+using UnityEngine.Networking.NetworkSystem;
+using UnityEngine.Experimental.Networking;
+using Prototype.NetworkLobby;
 using System.Collections;
 
 
@@ -52,6 +55,8 @@ namespace Prototype.NetworkLobby
         protected ulong _currentMatchID;
 
         protected LobbyHook _lobbyHooks;
+
+		static public bool connectedToServer;
 
         void Start()
         {
@@ -400,6 +405,9 @@ namespace Prototype.NetworkLobby
                 backDelegate = StopClientClbk;
                 SetServerInfo("Client", networkAddress);
             }
+
+			Debug.Log("<color=green>Connected to server</color>");
+			connectedToServer = true;
         }
 
 

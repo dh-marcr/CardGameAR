@@ -23,7 +23,6 @@ public class StarePointController : NetworkBehaviour
 
 	void Update ()
 	{
-
 		//turn to camera
 		Vector3 lookRotation = new Vector3 (Camera.main.transform.parent.position.x, transform.position.y, Camera.main.transform.parent.position.z);
 		transform.LookAt (lookRotation);
@@ -134,6 +133,7 @@ public class StarePointController : NetworkBehaviour
 	public float fill;
 
 	//[HideInInspector]
+	[SyncVar]
 	public bool staring;
 
 	[HideInInspector]

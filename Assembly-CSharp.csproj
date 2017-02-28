@@ -51,7 +51,6 @@
      <Compile Include="Assets\CreatePlayBoard.cs" />
      <Compile Include="Assets\EnemySpawner.cs" />
      <Compile Include="Assets\GameInitialization.cs" />
-     <Compile Include="Assets\GameNetworking.cs" />
      <Compile Include="Assets\Health.cs" />
      <Compile Include="Assets\HoldListener.cs" />
      <Compile Include="Assets\InputControl.cs" />
@@ -147,7 +146,6 @@
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\Lobby\Instruction.txt" />
      <None Include="Assets\LeanTween\ReadMe.txt" />
-     <None Include="Assets\StreamingAssets\QCAR\CardGameDataBase_001.xml" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
@@ -157,6 +155,7 @@
      <None Include="Assets\LeanTween\License.txt" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\CardGameDataBase_001.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
